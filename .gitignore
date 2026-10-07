@@ -1,0 +1,14 @@
+# Pixel Panic local/generated exclusions
+
+# BEGIN PIXEL PANIC LOCAL EXCLUDES
+runtime/webview2-sdk/
+runtime/cache/
+workspace/
+saves/
+native/bin/
+native/obj/
+.vs/
+*.user
+*.tmp
+*.log
+# END PIXEL PANIC LOCAL EXCLUDES

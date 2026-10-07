@@ -1,0 +1,13 @@
+{
+  "release": "0.4.4",
+  "inherited_from": "0.4.3",
+  "launchers_unchanged": false,
+  "powershell_policy": "RemoteSigned with package-local Unblock-File behavior; no global policy change",
+  "forbidden_patterns": {
+    "Set-ExecutionPolicy": false,
+    "-ExecutionPolicy Bypass": false,
+    "Invoke-Expression": false
+  },
+  "pass": true,
+  "launcher_logic_inherited_from": "0.4.3; only window title/version text changed to 0.4.4"
+}

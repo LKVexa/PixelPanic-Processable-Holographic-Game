@@ -1,0 +1,12 @@
+{
+  "release": "0.4.4",
+  "host_source_inherited_from": "0.4.3",
+  "harness_changed_for_hard_mode": false,
+  "cartridges_changed_for_hard_mode": true,
+  "csharp_brace_balance_preserved": true,
+  "loopback_tcp_listener_preserved": true,
+  "webview2_adapter_version": "1.0.4191.47",
+  "external_game_logic_added": false,
+  "native_windows_compile_executed_here": false,
+  "next_gate": "Run SETUP.cmd then VERIFY.cmd on Windows; BOOT.cmd after VERIFY reports PASS."
+}

@@ -1,0 +1,23 @@
+* text=auto
+
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cs text eol=crlf
+*.txt text eol=crlf
+
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.tif binary
+*.tiff binary
+*.gif binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.dll binary
+*.exe binary
+*.wasm binary
+*.bin binary

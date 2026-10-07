@@ -1,0 +1,73 @@
+{
+  "release": "0.4.4",
+  "requirement": "All game-specific software, including HARD MODE rules, remains inside TIFF/GIF; external boundary is the C# carrier/virtual-console substrate and bootstrap/runtime dependencies.",
+  "checks": [
+    {
+      "file": "PixelPanic-Hologram.BigTIFF.tiff",
+      "pass": true,
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "required_embedded": {
+        "runtime.wasm": true,
+        "program.ppbc": true,
+        "schedule.bin": true,
+        "snapshot.bin": true,
+        "source/game.ppl.py": true,
+        "source/compile_guest.py": true,
+        "console/index.html": true,
+        "hologram/index.html": true,
+        "hologram/image-reader.js": true,
+        "hologram/bridge.js": true,
+        "docs/HARD_MODE.md": true,
+        "manifest.json": true
+      }
+    },
+    {
+      "file": "PixelPanic-Hologram.gif",
+      "pass": true,
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "required_embedded": {
+        "runtime.wasm": true,
+        "program.ppbc": true,
+        "schedule.bin": true,
+        "snapshot.bin": true,
+        "source/game.ppl.py": true,
+        "source/compile_guest.py": true,
+        "console/index.html": true,
+        "hologram/index.html": true,
+        "hologram/image-reader.js": true,
+        "hologram/bridge.js": true,
+        "docs/HARD_MODE.md": true,
+        "manifest.json": true
+      }
+    },
+    {
+      "file": "PixelPanic-Hologram.tiff",
+      "pass": true,
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "required_embedded": {
+        "runtime.wasm": true,
+        "program.ppbc": true,
+        "schedule.bin": true,
+        "snapshot.bin": true,
+        "source/game.ppl.py": true,
+        "source/compile_guest.py": true,
+        "console/index.html": true,
+        "hologram/index.html": true,
+        "hologram/image-reader.js": true,
+        "hologram/bridge.js": true,
+        "docs/HARD_MODE.md": true,
+        "manifest.json": true
+      }
+    }
+  ],
+  "no_external_game_source_or_host_js": true,
+  "native_windows_execution_tested": false,
+  "physical_optical_execution_claimed": false,
+  "difficulty_profile": "HARD MODE"
+}

@@ -1,0 +1,244 @@
+{
+  "release": "0.4.4",
+  "profile": "HARD MODE",
+  "scope": "Actual image-recovered PP32 Wasm guest executed from rebuilt TIFF. Controlled state fixtures are test-only; production exposes no difficulty editor.",
+  "passed": 6,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "hard-mode boot",
+      "pass": true,
+      "width": 43,
+      "height": 33,
+      "quota": 20,
+      "supply": 75,
+      "ghosts": 3,
+      "ghostPeriodMS": 840
+    },
+    {
+      "test": "12-level difficulty curve",
+      "pass": true,
+      "curve": [
+        {
+          "level": 1,
+          "quota": 20,
+          "supply": 75,
+          "spare": 55,
+          "ghosts": 3,
+          "periodMS": 840,
+          "width": 43,
+          "height": 33
+        },
+        {
+          "level": 2,
+          "quota": 24,
+          "supply": 74,
+          "spare": 50,
+          "ghosts": 3,
+          "periodMS": 790,
+          "width": 43,
+          "height": 33
+        },
+        {
+          "level": 3,
+          "quota": 28,
+          "supply": 73,
+          "spare": 45,
+          "ghosts": 4,
+          "periodMS": 740,
+          "width": 43,
+          "height": 33
+        },
+        {
+          "level": 4,
+          "quota": 32,
+          "supply": 72,
+          "spare": 40,
+          "ghosts": 4,
+          "periodMS": 690,
+          "width": 45,
+          "height": 33
+        },
+        {
+          "level": 5,
+          "quota": 36,
+          "supply": 71,
+          "spare": 35,
+          "ghosts": 5,
+          "periodMS": 640,
+          "width": 45,
+          "height": 35
+        },
+        {
+          "level": 6,
+          "quota": 40,
+          "supply": 70,
+          "spare": 30,
+          "ghosts": 5,
+          "periodMS": 590,
+          "width": 45,
+          "height": 35
+        },
+        {
+          "level": 7,
+          "quota": 44,
+          "supply": 69,
+          "spare": 25,
+          "ghosts": 6,
+          "periodMS": 540,
+          "width": 47,
+          "height": 35
+        },
+        {
+          "level": 8,
+          "quota": 48,
+          "supply": 68,
+          "spare": 20,
+          "ghosts": 6,
+          "periodMS": 490,
+          "width": 47,
+          "height": 35
+        },
+        {
+          "level": 9,
+          "quota": 52,
+          "supply": 67,
+          "spare": 15,
+          "ghosts": 7,
+          "periodMS": 440,
+          "width": 47,
+          "height": 37
+        },
+        {
+          "level": 10,
+          "quota": 56,
+          "supply": 66,
+          "spare": 10,
+          "ghosts": 7,
+          "periodMS": 390,
+          "width": 49,
+          "height": 37
+        },
+        {
+          "level": 11,
+          "quota": 60,
+          "supply": 65,
+          "spare": 5,
+          "ghosts": 8,
+          "periodMS": 340,
+          "width": 49,
+          "height": 37
+        },
+        {
+          "level": 12,
+          "quota": 64,
+          "supply": 64,
+          "spare": 0,
+          "ghosts": 8,
+          "periodMS": 290,
+          "width": 49,
+          "height": 37
+        }
+      ]
+    },
+    {
+      "test": "quota auto progression retained",
+      "pass": true,
+      "newLevel": 2,
+      "newQuota": 24,
+      "newSupply": 74
+    },
+    {
+      "test": "five-minute jellyfish release retained",
+      "pass": true,
+      "timeMS": 300000,
+      "ghostsReleased": 1,
+      "initialGhostCooldownMS": 840
+    },
+    {
+      "test": "1200 generated maps feasible",
+      "pass": true,
+      "maps": 1200
+    },
+    {
+      "test": "level 12 requires all gold and ends campaign",
+      "pass": true,
+      "level": 12,
+      "quota": 64,
+      "supply": 64,
+      "status": 3
+    }
+  ],
+  "format_recovery": [
+    {
+      "file": "PixelPanic-Hologram.BigTIFF.tiff",
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "payload_sha256": "3a94f9a13b65985c5afbcb1164e4e486f8b3e36d8131f1092c0856d22381531d"
+    },
+    {
+      "file": "PixelPanic-Hologram.gif",
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "payload_sha256": "3a94f9a13b65985c5afbcb1164e4e486f8b3e36d8131f1092c0856d22381531d"
+    },
+    {
+      "file": "PixelPanic-Hologram.tiff",
+      "payload_bytes": 424127,
+      "modules": 29,
+      "approval": "326a7fafa1bc6184702ad6780826aa2ffc3afb04b7acc0c06cb38909497edad2",
+      "payload_sha256": "3a94f9a13b65985c5afbcb1164e4e486f8b3e36d8131f1092c0856d22381531d"
+    }
+  ],
+  "save_and_format_checks": {
+    "passed": 6,
+    "failed": 0,
+    "rows": [
+      {
+        "input": "PixelPanic-Hologram.tiff",
+        "level": 1,
+        "quota": 20,
+        "supply": 75,
+        "payloadBytes": 424127
+      },
+      {
+        "input": "PixelPanic-Hologram.gif",
+        "level": 1,
+        "quota": 20,
+        "supply": 75,
+        "payloadBytes": 424127
+      },
+      {
+        "input": "PixelPanic-Hologram.BigTIFF.tiff",
+        "level": 1,
+        "quota": 20,
+        "supply": 75,
+        "payloadBytes": 424127
+      },
+      {
+        "save": "tiff",
+        "bytes": 525448,
+        "stateRoundTrip": true,
+        "quota": 20,
+        "supply": 75
+      },
+      {
+        "save": "gif",
+        "bytes": 596081,
+        "stateRoundTrip": true,
+        "quota": 20,
+        "supply": 75
+      },
+      {
+        "save": "bigtiff",
+        "bytes": 526224,
+        "stateRoundTrip": true,
+        "quota": 20,
+        "supply": 75
+      }
+    ]
+  },
+  "passed_total": 12
+}

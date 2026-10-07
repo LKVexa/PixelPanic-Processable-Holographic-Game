@@ -1,0 +1,107 @@
+[
+  {
+    "path": "AUDIT.md",
+    "bytes": 1970,
+    "sha256": "eb6a3bb41154ee369e486a7aa3520e6acedf7832729ef4a6f81f118af872ba29"
+  },
+  {
+    "path": "BOOT.cmd",
+    "bytes": 1580,
+    "sha256": "8d1800bf3923ea99a0cf24510e7c5815f6f2ba0f397ee6fceacf8370fae101da"
+  },
+  {
+    "path": "HARD_MODE_ACCEPTANCE.json",
+    "bytes": 5544,
+    "sha256": "6619f961e971ccbb13dffb1e50735c8b7b63150b1022a527cdd1de4f09db3053"
+  },
+  {
+    "path": "HARNESS_SOURCE_ACCEPTANCE.json",
+    "bytes": 465,
+    "sha256": "958fccedb2718b4f122c09457f17771883f8a097c8be23d9502558f105003b5f"
+  },
+  {
+    "path": "HOST_FIX_ACCEPTANCE.json",
+    "bytes": 465,
+    "sha256": "958fccedb2718b4f122c09457f17771883f8a097c8be23d9502558f105003b5f"
+  },
+  {
+    "path": "POLICY_FIX_ACCEPTANCE.json",
+    "bytes": 434,
+    "sha256": "2729be3a786dfedae2617d9cd33d0280880a436cdf613a67394fe3cd3a629347"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3008,
+    "sha256": "de617ac13b8211409389d6a771d6e919dc2d2319e7a2f32928487a58eeaa0c67"
+  },
+  {
+    "path": "SETUP.cmd",
+    "bytes": 1177,
+    "sha256": "10b3be025dc8bd159ce6274f3eaf66ce86b551e4998ebee2e494f4ef7fa1ac42"
+  },
+  {
+    "path": "STATIC_ACCEPTANCE.json",
+    "bytes": 922,
+    "sha256": "0c4e115f848c62f8fdcf56dbb529b1ad1050845af28c7f5c0b59b537fb88a3a4"
+  },
+  {
+    "path": "STRUCTURAL_ACCEPTANCE.json",
+    "bytes": 2411,
+    "sha256": "7d2549201614e9b0cd231271ac0b4becd4ba8aa3000ce5dd314ba28b3ebe622d"
+  },
+  {
+    "path": "VERIFY.cmd",
+    "bytes": 1069,
+    "sha256": "19cf1428ca0da28499c1dca85d9020ff060b1bc67573d41f213b5318586e53d2"
+  },
+  {
+    "path": "cartridges/PixelPanic-Hologram.BigTIFF.tiff",
+    "bytes": 526224,
+    "sha256": "e46185196b3dc0d98da1355c192be9fd4bd9c487109f560cb3ce64593597e17e"
+  },
+  {
+    "path": "cartridges/PixelPanic-Hologram.gif",
+    "bytes": 596081,
+    "sha256": "8a4ced7c4c4344e505144fbdd79676053a662eff2b83b5df53306f681bbc7ef6"
+  },
+  {
+    "path": "cartridges/PixelPanic-Hologram.tiff",
+    "bytes": 525448,
+    "sha256": "cadb71fbee87c7ee75c672eac63728015c71ea8cea1e967c04a96dc26ddde26d"
+  },
+  {
+    "path": "manifest-external-boundary.json",
+    "bytes": 1894,
+    "sha256": "aaf2012f2219f919284261c06d6455fc2233a11c83127c235398cc836cb00150"
+  },
+  {
+    "path": "native/HologramHarness.cs",
+    "bytes": 32533,
+    "sha256": "339a09d2909edaef0975dbd4cfd22b90d410efcf99e2961d091f8337dd772a81"
+  },
+  {
+    "path": "native/Import-WebView2Adapter.ps1",
+    "bytes": 8779,
+    "sha256": "fb8452e756ca8c52c4467aba239f1b94d66bdc3f602a7e3ae7dd83f43591bc52"
+  },
+  {
+    "path": "native/Setup-WebView2.ps1",
+    "bytes": 6465,
+    "sha256": "f84e274a09398410d1233982864f3bd583bde8b9159644ba2a2f1e6d804239ad"
+  },
+  {
+    "path": "native/Start-Hologram.ps1",
+    "bytes": 3368,
+    "sha256": "3518a94f94f1f13fe012e88cc1c10d79892ad80422d163db015bbb0094f6b3df"
+  },
+  {
+    "path": "native/Wpf-CompileReferences.ps1",
+    "bytes": 1540,
+    "sha256": "462353b99e369b43e6ec5fd38bf26f0ec58edfcaafc72ed25790643b3df699c5"
+  },
+  {
+    "path": "runtime/README.txt",
+    "bytes": 1569,
+    "sha256": "bb4ea30cdc3874bb846fc68280bc641c28c0b376b8ed2b16f7280168528eeb2a"
+  }
+]

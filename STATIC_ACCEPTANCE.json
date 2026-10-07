@@ -1,0 +1,45 @@
+{
+  "release": "0.4.4",
+  "checks": [
+    {
+      "name": "C# harness byte-identical to 0.4.3",
+      "pass": true
+    },
+    {
+      "name": "PowerShell/native launcher substrate unchanged",
+      "pass": true
+    },
+    {
+      "name": "TIFF/GIF/BigTIFF recover same payload",
+      "pass": true
+    },
+    {
+      "name": "29 image-carried modules",
+      "pass": true
+    },
+    {
+      "name": "HARD MODE source stored inside image",
+      "pass": true
+    },
+    {
+      "name": "Game program recompiled from image-carried source",
+      "pass": true
+    },
+    {
+      "name": "Five-minute head start retained",
+      "pass": true
+    },
+    {
+      "name": "Quota-triggered automatic progression retained",
+      "pass": true
+    },
+    {
+      "name": "1200 generated maps feasible",
+      "pass": true
+    },
+    {
+      "name": "Level 12 requires all 64 coins and ends campaign",
+      "pass": true
+    }
+  ]
+}
